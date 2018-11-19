@@ -4,14 +4,14 @@ components : FSSP
 
 [FSSP]
 type : cell
-width : 11
+width : 12
 height : 1
 delay : transport
 defaultDelayTime : 100
 border : wrapped 
-neighbors : FSSP(0,-1)  FSSP(0,0)  D-FSSP(0,1)
+neighbors : FSSP(0,-1)  FSSP(0,0)  FSSP(0,1)
 initialvalue : 0
-initialrowvalue :  0     10000700001
+initialrowvalue :  0     100000000071
 localtransition : FSSP-rule
 
 
